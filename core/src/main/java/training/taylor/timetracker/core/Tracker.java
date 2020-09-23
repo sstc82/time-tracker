@@ -10,8 +10,7 @@ import java.util.List;
 public class Tracker {
     @Autowired
     private List<TimeEntry> entries;
-
-    @something
+    
     public void add(TimeEntry entry) {
         entries.add(entry);
     }
